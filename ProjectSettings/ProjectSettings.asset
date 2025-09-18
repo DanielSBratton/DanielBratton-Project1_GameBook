@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 6d8ea555ab2e0804f9f02da35fe5ea45
+  productGUID: 09004aa48b6c2de479cba152c69be101
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: DB-Project1_GameBook
+  productName: PlanePanick
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -600,14 +600,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: DB-Project1_GameBook
+  metroPackageName: PlanePanick
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: DB-Project1_GameBook
+  metroApplicationDescription: PlanePanick
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -678,10 +678,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: a62e8c46-2767-4388-9aae-891ee5a7e2aa
+  cloudProjectId: 6376463a-5fb5-4323-8ae8-f82ff3b8de34
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: DB-Project1_GameBook 2025-09-11_18-31-40
+  projectName: PlanePanick
   organizationId: dsb00015
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
