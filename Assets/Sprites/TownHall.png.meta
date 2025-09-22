@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 20945b8d5d7efda4aa2a191adb78d607
+guid: 0e9a55c9399631843ac5c27dc54a9de5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4856714404820034248
-    second: TruckSpriteSheet(Og32per).png_0
-  - first:
-      213: 5601949721589512374
-    second: TruckSpriteSheet(Og32per).png_1
-  - first:
-      213: 840316008428995753
-    second: TruckSpriteSheet(Og32per).png_2
+      213: -1429700456277490781
+    second: TownHall_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TruckSpriteSheet(Og32per).png_0
+      name: TownHall_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 32
+        width: 128
+        height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,74 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83ddd251bfb799cb0800000000000000
-      internalID: -4856714404820034248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TruckSpriteSheet(Og32per).png_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6b8f0f4679f1ebd40800000000000000
-      internalID: 5601949721589512374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TruckSpriteSheet(Og32per).png_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a40c7d15f669ab00800000000000000
-      internalID: 840316008428995753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TruckSpriteSheet(Og32per).png_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89b3043e717aed64fab3fbdfe2ecd983
-      internalID: 993488242
+      spriteID: 3a3cd58820fa82ce0800000000000000
+      internalID: -1429700456277490781
       vertices: []
       indices: 
       edges: []
@@ -210,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ca107a7532896ed4fb7b85e20a70ddbc
+    spriteID: 552e6116409878540830e25fee61d1ad
     internalID: 0
     vertices: []
     indices: 
@@ -220,12 +148,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      TruckSpriteSheet(Og32per).png_0: -4856714404820034248
-      TruckSpriteSheet(Og32per).png_1: 5601949721589512374
-      TruckSpriteSheet(Og32per).png_2: 840316008428995753
-      TruckSpriteSheet(Og32per).png_3: 993488242
+      TownHall_0: -1429700456277490781
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

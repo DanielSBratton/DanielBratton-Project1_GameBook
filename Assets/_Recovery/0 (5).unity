@@ -129,7 +129,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3720717}
   - component: {fileID: 3720718}
-  - component: {fileID: 3720719}
   m_Layer: 0
   m_Name: Handyman
   m_TagString: Untagged
@@ -198,20 +197,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &3720719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3720716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f14c0e3e357e18d4fb2176505db951de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Trigger
-  gameMaster: {fileID: 1981158056}
-  tripped: 0
 --- !u!1 &108813858
 GameObject:
   m_ObjectHideFlags: 0
@@ -14362,7 +14347,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDamping: 1
+  m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -14423,12 +14408,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -8718932128196173901, guid: 6807628d90ff8134e82f2a4b0435c9a4, type: 3}
+  m_Sprite: {fileID: -4856714404820034248, guid: 20945b8d5d7efda4aa2a191adb78d607, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.5, y: 1}
+  m_Size: {x: 0.14, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -14498,13 +14483,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d60dae0ee8721e45ba0ed9a90af3b47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  spriteRenderer: {fileID: 275048786}
-  sprites:
-  - {fileID: -8718932128196173901, guid: 6807628d90ff8134e82f2a4b0435c9a4, type: 3}
-  - {fileID: 686020408602618181, guid: 6807628d90ff8134e82f2a4b0435c9a4, type: 3}
-  - {fileID: -2144267711550799029, guid: 6807628d90ff8134e82f2a4b0435c9a4, type: 3}
-  - {fileID: 524652130, guid: 6807628d90ff8134e82f2a4b0435c9a4, type: 3}
-  spriteIndex: 0
   moveable: 0
 --- !u!1 &466539093
 GameObject:
@@ -14516,7 +14494,6 @@ GameObject:
   m_Component:
   - component: {fileID: 466539094}
   - component: {fileID: 466539095}
-  - component: {fileID: 466539096}
   m_Layer: 0
   m_Name: Airfield
   m_TagString: Untagged
@@ -14585,20 +14562,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &466539096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 466539093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f14c0e3e357e18d4fb2176505db951de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  gameMaster: {fileID: 1981158056}
-  tripped: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -15000,7 +14963,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
+  m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -22929,8 +22892,8 @@ Tilemap:
   - first: {x: 5, y: 2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 7
-      m_TileSpriteIndex: 10
+      m_TileIndex: 6
+      m_TileSpriteIndex: 15
       m_TileMatrixIndex: 0
       m_TileColorIndex: 1
       m_TileObjectToInstantiateIndex: 65535
@@ -24070,9 +24033,9 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 8
     m_Data: {fileID: 11400000, guid: ab2597d56bc5344408a0ef2bfa45ef4d, type: 2}
-  - m_RefCount: 7
+  - m_RefCount: 8
     m_Data: {fileID: 11400000, guid: 7572ee5eb375a8d42a1c4b612bde3084, type: 2}
-  - m_RefCount: 39
+  - m_RefCount: 38
     m_Data: {fileID: 11400000, guid: 113b2d86e62f9cf4284eab8d876805e8, type: 2}
   - m_RefCount: 6
     m_Data: {fileID: 11400000, guid: be371235c1f85a54087f1ba4786a6d4f, type: 2}
@@ -24121,7 +24084,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 39
+  - m_RefCount: 38
     m_Data: {fileID: -7360328911344894059, guid: f354d18ba96c4604dbb5296c7ae9a214, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -24131,7 +24094,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: -1930770719, guid: f354d18ba96c4604dbb5296c7ae9a214, type: 3}
-  - m_RefCount: 7
+  - m_RefCount: 8
     m_Data: {fileID: -1956332659, guid: f354d18ba96c4604dbb5296c7ae9a214, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1158422781335631707, guid: f354d18ba96c4604dbb5296c7ae9a214, type: 3}
@@ -24223,7 +24186,6 @@ GameObject:
   m_Component:
   - component: {fileID: 968434363}
   - component: {fileID: 968434364}
-  - component: {fileID: 968434365}
   m_Layer: 0
   m_Name: GeneralStore
   m_TagString: Untagged
@@ -24292,20 +24254,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &968434365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 968434362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f14c0e3e357e18d4fb2176505db951de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Trigger
-  gameMaster: {fileID: 1981158056}
-  tripped: 0
 --- !u!1 &1390556976
 GameObject:
   m_ObjectHideFlags: 0
@@ -24390,8 +24338,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64
-  m_fontSizeBase: 64
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -24852,7 +24800,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1560311648}
   - component: {fileID: 1560311649}
-  - component: {fileID: 1560311650}
   m_Layer: 0
   m_Name: TownHall
   m_TagString: Untagged
@@ -24921,20 +24868,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1560311650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560311647}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f14c0e3e357e18d4fb2176505db951de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Trigger
-  gameMaster: {fileID: 1981158056}
-  tripped: 0
 --- !u!1 &1633981913
 GameObject:
   m_ObjectHideFlags: 0
@@ -24945,7 +24878,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1633981914}
   - component: {fileID: 1633981915}
-  - component: {fileID: 1633981916}
   m_Layer: 0
   m_Name: Mechanic
   m_TagString: Untagged
@@ -25014,20 +24946,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1633981916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1633981913}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f14c0e3e357e18d4fb2176505db951de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Trigger
-  gameMaster: {fileID: 1981158056}
-  tripped: 0
 --- !u!1 &1781950361
 GameObject:
   m_ObjectHideFlags: 0
@@ -25165,12 +25083,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   player: {fileID: 275048783}
   titleScreen: {fileID: 1781950361}
-  startButton: {fileID: 200946235}
   dialogBox: {fileID: 653989905}
   dialogText: {fileID: 1390556978}
   stage: 0
-  dialogIndex: 0
-  dialog: []
 --- !u!1 &2129155612
 GameObject:
   m_ObjectHideFlags: 0
@@ -25181,7 +25096,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2129155613}
   - component: {fileID: 2129155614}
-  - component: {fileID: 2129155615}
   m_Layer: 0
   m_Name: Farm
   m_TagString: Untagged
@@ -25250,20 +25164,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2129155615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2129155612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f14c0e3e357e18d4fb2176505db951de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Trigger
-  gameMaster: {fileID: 1981158056}
-  tripped: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
