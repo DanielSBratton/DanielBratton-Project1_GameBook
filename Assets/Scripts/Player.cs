@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
 
         if (moveable)
         {
-            if (keyboard.upArrowKey.isPressed)
+            if (keyboard.upArrowKey.isPressed || keyboard.wKey.isPressed)
             {
                 transform.rotation = Quaternion.identity;
                 spriteIndex = 0;
@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
                 rb.linearVelocityY += 0.1f;
             }
 
-            if (keyboard.downArrowKey.isPressed)
+            if (keyboard.downArrowKey.isPressed || keyboard.sKey.isPressed)
             {
                 transform.rotation = Quaternion.Euler(0, 0, 180);
                 spriteIndex = 1;
@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
                 rb.linearVelocityY -= 0.1f;
             }
 
-            if (keyboard.leftArrowKey.isPressed)
+            if (keyboard.leftArrowKey.isPressed || keyboard.aKey.isPressed)
             {
                 transform.rotation = Quaternion.Euler(0, 0, 90);
                 spriteIndex = 2;
@@ -47,7 +47,7 @@ public class Player : MonoBehaviour
                 rb.linearVelocityX -= 0.1f;
             }
 
-            if (keyboard.rightArrowKey.isPressed)
+            if (keyboard.rightArrowKey.isPressed || keyboard.dKey.isPressed)
             {
                 transform.rotation = Quaternion.Euler(0, 0, 270);
                 spriteIndex = 3;
